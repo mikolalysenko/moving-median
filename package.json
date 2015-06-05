@@ -1,0 +1,35 @@
+{
+  "name": "moving-median",
+  "version": "1.0.0",
+  "description": "Computes a moving median from an array of samples",
+  "main": "median.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikolalysenko/moving-median.git"
+  },
+  "keywords": [
+    "median",
+    "moving",
+    "average",
+    "statistics",
+    "stream",
+    "filter"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/moving-median/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/moving-median"
+}
